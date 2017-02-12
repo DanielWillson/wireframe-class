@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+}
+
+a {
+	color: red;
+	/* This is how you change the color. */
+}
+
+.special {
+	color: purple;	
+}
+
+.something {
+	border: 1px solid black;
+}
+
+p {
+	font-family: Arial;
+	color: blue;
+	font-size: 24px;
+}
+
+h1, h2 {
+	font-family: Verdana;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	width: 400px;
+	height: auto;
+}
+
+
+
+
+
+
+
