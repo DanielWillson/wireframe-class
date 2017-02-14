@@ -1,8 +1,3 @@
-/*
-
-
-*/
-
 /* Sometimes browsers (like Chrome) assume some default padding and margin. This is annoying for web designers since different browsers (like Safari) assume different defaults, making pages look inconsistent. This resets everything back to normal. */
 body {
 	margin: 0;
