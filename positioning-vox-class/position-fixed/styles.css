@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', Arial;
+}
+
+.nav-container {
+	background-color: black;
+	color: white;
+	padding: 15px 0;
+	width: 100%;
+	position: fixed;
+}
+
+.content {
+	width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.logo-container {
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.links-container {
+	width: 80%;
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.links-container ul {
+	list-style: none;
+}
+
+.links-container li {
+	display: inline;
+	padding: 0 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.logo-container img {
+	width: 100%;
+	height: auto;
+}
+
+.top-container {
+	background-image: url('images/bg6.jpg');
+	background-size: cover;
+	height: 600px;
+	padding-top: 100px;
+}
+
+.outcomes-intro {
+	width: 40%;
+	color: white;
+	font-size: 18px;
+	padding-top: 50px;
+}
+
+/* This is a comment */
+
+.matt-container {
+	background-image: url('images/matt2.jpg');
+	background-size: cover;
+	height: 700px;
+	color: white;
+	padding: 100px 0;
+}
+
+
+
+
+
+
+/* For later */
+
+@media screen and (max-width: 900px) {
+	
+}

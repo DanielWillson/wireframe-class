@@ -1,0 +1,68 @@
+/* Sometimes browsers (like Chrome) assume some default padding and margin. This is annoying for web designers since different browsers (like Safari) assume different defaults, making pages look inconsistent. This resets everything back to normal. */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.everything {
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+	height: 600px;
+}
+
+.content {
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+}
+
+.cell {
+	color: #284374;
+	text-transform: uppercase;
+	font-family: Arial;
+	border-top: 5px dotted orange;
+	width: 30%;
+	margin-right: 5%;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.content .cell:nth-child(3n) {
+	margin-right: 0;
+}
+
+.heading {
+	text-align: center;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 36px;
+	color: #284374;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+a {
+	width: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
