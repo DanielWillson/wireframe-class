@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.experts {	
+	/* CODE FROM UIGRADIENTS.COM */
+	background: #ECE9E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 72px 0;
+}
+
+.centering-div {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.experts h1 {
+	margin: 0 2% 36px 2%;
+}
+
+.experts .expert {
+	display: inline-block;
+	width: 20%;
+	margin: 0 2.5% 36px 2.5%;
+	vertical-align: top;
+}
+
+.experts .expert h3 {
+	margin: 9px 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.experts .expert p {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 9px;
+}
+
+.experts .headshot img {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 800px) {
+
+	.experts .expert {
+		width: 25%;
+		margin: 0 4%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.experts .expert {
+		width: 100%;
+		margin: 0;
+		margin-bottom: 18px;
+	}
+
+	.expert-info {
+		display: inline-block;
+		width: 75%;
+		margin-left: 5%;
+		vertical-align: top;
+	}
+
+	.headshot {
+		display: inline-block;
+		width: 20%;
+		vertical-align: top;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

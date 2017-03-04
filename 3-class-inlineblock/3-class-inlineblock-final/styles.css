@@ -1,0 +1,53 @@
+/* Sometimes browsers (like Chrome) assume some default padding and margin. This is annoying for web designers since different browsers (like Safari) assume different defaults, making pages look inconsistent. This resets everything back to normal. */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.this-is-uva {
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+
+	
+	color: #002F6C;
+	padding: 50px 0;
+}
+
+.this-is-uva .content {
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.this-is-uva .heading {
+	text-align: center;
+	
+	font-style: italic;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.this-is-uva .column {
+	display: inline-block;
+	width: 30%;
+	margin-right: 5%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Arial;
+	padding: 40px 0;
+	border-top: 3px dotted #F28D5F;
+}
+
+.this-is-uva .columns .column:nth-child(3n) {
+	margin-right: 0;
+}
+
+.this-is-uva a {
+	text-decoration: none;
+	color: #002F6C;
+}
+
+
+

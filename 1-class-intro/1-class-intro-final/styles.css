@@ -1,0 +1,51 @@
+body {
+	background-color: pink;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+}
+
+h1 {
+	font-family: Arial;
+	text-align: center;
+}
+
+img {
+	width: 300px;
+	height: auto;
+	border-radius: 20%;
+	border: 5px solid black;
+}
+
+.special {
+	color: red;
+	font-weight: bold;
+}
+
+.anna {
+	border: 10px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
