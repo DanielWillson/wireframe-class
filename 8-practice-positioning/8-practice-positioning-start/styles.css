@@ -1,0 +1,50 @@
+/* 
+
+COLORS
+Page background grey color: #485563;
+
+
+CUSTOM FONTS
+In this example we're using Gotham, a paid font. (This means it's not available on Google Fonts or similar services.) So, we have to import it in a different way. Look up "font-face" on Google to see if you can understand how to use it. 
+
+
+TRANSPARENCY
+There is a semi-transparent black background behind the headline "Here's how your company can connect with our students". Look up "rgba" on Google to see if you can figure out how to recreate that. 
+
+
+HOVERING
+When you hover on the link in the right section, it shows an underline. Look up "how to change CSS when hovering" on Google to see if you can figure out how to do that. 
+
+
+REMOVING MARGIN ON EVERY 2ND ITEM
+With the partner logos, you'll find that you want to have margin sometimes on the right but sometimes you don't want any margin. "nth-child" is what you're looking for here to make this happen. Google that and see if you can figure it out. 
+
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gotham', Helvetica, sans-serif;
+	background-color: #485563;
+}
+
+
+@media screen and (max-width: 900px) {
+	/* Refer to the 875px-wide browser screenshot for how this should look */
+
+
+}
+
+@media screen and (max-width: 700px) {
+	/* Refer to the 675px-wide browser screenshot for how this should look */
+	/* At this point the partner logos switch to being 3 across. */
+
+
+}
+
+@media screen and (max-width: 550px) {
+	/* Refer to the 525px-wide browser screenshot for how this should look */
+	/* At this point the partner logos switch back to just being two across. */
+
+
+}
