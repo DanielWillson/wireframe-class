@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel='stylesheet' href='styles.css' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GitHub Intro</title>
+</head>
+<body>
+
+<div class="centering-div">
+
+	<h1>An Introduction to GitHub</h1>
+
+	<!-- what is git -->
+
+	<h2>First, we're going to go through a tutorial using GitHub online.</h2>
+	<p><a href="https://guides.github.com/activities/hello-world/" target="_blank">Here's the tutorial, but we're going to go through this together in class.</a></p>
+	
+	<h2>Next we're going to mess around with git on our computer.</h3>
+	<p>You're going to need to make sure git is installed on your computer. For Windows, download and install this file <a href="https://git-scm.com/download/win" target="_blank">here.</a> For Mac, download and install this file <a href="https://git-scm.com/download/mac" target="_blank">here.</a></p>
+	<ol>
+		<li>Open up Finder (Mac) or Explorer (PC) and go to your Documents folder. Inside of this folder create a new folder called "git" - all lowercase. Inside of that folder create a new folder called "project-1".</li>
+		<li>Then open up Terminal (Mac) or Command Prompt (PC).</li>
+		<li>Type in "cd Documents" and hit enter. Then type in "ls" and hit enter. You'll see a list of all the folders and files on your desktop. </li>
+		<li>Then type in "cd git/project-1". You're now "inside of" the project-1 folder you just created.</li>
+		<li>Now type in "git init". This will create a git repository in this folder. This means that all of the files inside of this folder and outside of this folder are now tracked by git.</li>
+		<li>Open up Sublime and create a new HTML file and save it inside of your project-1 folder.</li>
+		<li>Git will have noticed that the contents of this folder are changed. Back in Terminal/Command Prompt, type in "git status" and you'll see that it's noticed a change.</li>
+	</ol>
+	<p>Before we go any further, we're going to explain an overview of how the next stage is going to work. Let's say that you've made some major changes to your HTML file - you're done coding for the day - and you want to mark your progress.</p>
+	<ol>
+		<li>First, we're going to tell git which files we want to add to our <em>staging environment</em>. These are files that we want git to document our changes for. In most cases we're just going to tell git "hey, notice all the files I've changed? I want to document all of those changes."</li>
+		<li>Second, we're going to <em>commit</em> these files. Commits are records of the files you've changed since the last time you made a commit. Commits should always be stored with a little message about what you changed. Like "Made the navigation bar responsive" or "Edited the text in my about me section". Commits are helpful because they help you jump back to any point in the past, too.</li>
+		<li>Third, if we want to keep track of our code online we'll want to push everything up to GitHub.com.</li>
+	</ol>
+	<p>Okay. So let's go through these 3 steps one by one, following the high-level overview above. These are the steps you'll do over and over again whenever you're making anything.</p>
+	<ol>
+		<li>First, we're going to add our index.html file to our staging environment. You do this by saying "git add *". This will start tracking all files.</li>
+		<li>Second, we're going to commit this file. Type in <br>
+		git commit -m "My first commit"</li>
+		<li>Third, we're going to push these changes up to GitHub. We have to make a repo for it on GitHub first, though.
+			<ol>
+				<li>Go to your GitHub account and click add repository.</li>
+				<li>Give it a simple name. You don't need to change any other settings.</li>
+				<li>GitHub will ask if you want to create a new repo from scratch or if you want to add a repo you have created locally. In this case, since we've already created a new repo locally, we want to push that onto GitHub so follow the '....or push an existing repository from the command line' section.</li>
+				<li>Run the code in Terminal/Command Prompt that they give you. This you only have to do the first time you set up a repo - you're linking the repo on your computer to the repo on GitHub.</li>
+				<li>Finally, you're going to complete the only step you'll do regularly - you're going to push the changes you've made on your computer up to GitHub. Type in "git push origin master" and hit enter. Then check your GitHub repo online and see the changes!</li>
+			</ol>
+		</li>
+	</ol>
+
+
+
+</div>
+
+
+</body>
+</html>
