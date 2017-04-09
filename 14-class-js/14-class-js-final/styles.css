@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+}
+
+#div-0 {
+	height: 100vh;
+	width: 100%;
+	background-color: yellow;
+}
+
+#div-1 {
+	height: 100vh;
+	width: 100%;
+	background-color: pink;
+	position: relative;
+}
+
+#div-2 {
+	height: 100vh;
+	width: 100%;
+	background-color: blue;
+}
+
+.button-1, .button-2 {
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 400px;
+/*	position: absolute;
+	top: 300px;*/
+}
+
+.button-1 p {
+	background-color: blue;
+	color: white;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+.button-2 p {
+	background-color: pink;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+}
+
+.button-1 a, .button-2 a {
+	color: white;
+	text-decoration: none;
+}
+
+.show-btn, .hide-btn, .fade-in-btn {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+
+.show-btn {
+	background-color: blue;
+	color: white;
+}
+
+.hide-btn {
+	background-color: pink;
+}
+
+.fade-in-btn {
+	background-color: black;
+	color: white;
+}
+
+.image img {
+	width: 300px;
+	height: 300px;
+}
+
+#div-4 {
+	height: 100vh;
+	width: 100%;
+	background-color: aqua;
+	visibility: hidden;
+}
+
+.text {
+	padding: 200px;
+}
+
+
+
+
+
+
+
+

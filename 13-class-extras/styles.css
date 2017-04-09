@@ -15,16 +15,26 @@ img {
 	height: auto;
 }
 
+#this-is-an-id {
+	color: purple;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 
-
 .challenge-one {
 	border: 1px solid black;
 	padding: 0 20px;
+	background-color: orange;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .float-left-bar {
@@ -58,4 +68,9 @@ img {
 .right {
 	float: right;
 }
+
+
+
+
+
 
