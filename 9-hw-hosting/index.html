@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<link rel='stylesheet' href='styles.css' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spring Break Practice</title>
+</head>
+<body>
+
+<div class="centering-div">
+
+	<h1>Domains, Hosting, and FTP</h1>
+	<p><em>Please complete this before we meet on Sunday, March 19!</em>
+
+	<h2>First, please update the attendance sheet.</h2>
+	<p>I know we haven't updated this in awhile - please go back and make sure it's all up to date. <strong>Please also put in an "N" for classes you didn't come to.</strong> Thanks!</p>
+	<p>Wireframe: <a href="https://docs.google.com/spreadsheets/d/1MuvaFClFPuGiq1AAwEohnYC3rQ-DBLGzlJQj_ZiCY3s/edit#gid=0" target="_blank">Here's the link.</a></p>
+	<p>Wireframe CS: <a href="https://docs.google.com/spreadsheets/d/1fR-fbVtZhxqXq4nDnr4J2SjOaCW-2BBfYlJBz7F4cQY/edit" target="_blank">Here's the link.</a></p>
+
+	<h2>How does the Internet work?</h2>
+	<p>This video is super-cheesy but actually does a pretty good job of explaining it all. It lasts 5 minutes.</p>
+	<div class="videoWrapper">
+		<iframe width="1280" height="720" src="https://www.youtube.com/embed/cafVVwi1yEI" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<h2>What is a server?</h2>
+	<p>The video touches on this a little bit - but servers are basically dumb computers with a lot of storage connected directly to the Internet. Servers are “the cloud”. Data centers are filled with hundreds and often thousands of these computers. They look like this - you’ve definitely seen one in a movie before: </p>
+	<img src="http://cdn2.hubspot.net/hubfs/282679/Blog_Images/data-center.jpg" />
+
+	<h2>What’s hosting?</h2>
+	<p>Hosting is essentially you “renting” some company’s server. Popular hosts include GoDaddy, Bluehost, Amazon (AWS), etc. You could just host your website on your own computer, and then whenever they visit their site they’d be literally viewing the files off of your own computer. But - that isn’t very secure for you and your other files, it’d make your computer fairly slow all the time, your computer would have to be on 24/7, always connected to the Internet, and the page load times would be really slow. </p>
+	<p>Hosting essentially gives you access to a fast server directly connected to the Internet where you can put all your files. We’re using Bluehost for this class. Very basic hosting (which is all you need for a basic personal site) only costs $60-70/year. </p>
+	<p>If you need to build fully-functional web applications and/or have a TON of traffic, then there are better, more expensive options. Most notably is Amazon’s AWS (Amazon Web Services) which powers a substantial portion of the entire Internet.</p>
+
+	<h2>What is FTP?</h2>
+	<p>FTP is an acronym for File Transfer Protocol. As the name suggests, FTP is used to transfer files between computers on a network. You can use FTP to exchange files between computer accounts, transfer files between an account and a desktop computer, or access online software archives. Keep in mind, however, that many FTP sites are heavily used and require several attempts before connecting.</p>
+	<p>FTP is an easy way to directly connect to your hosting account’s server and upload your website files. That’s what we’re going to do in a minute so that you can get your stuff online. </p>
+
+	<h2>What are domains?</h2>
+	<p>Every device connected to the Internet - every computer, phone, server, router, etc - has a unique IP (Internet Protocol) address. Think of it as the home address for that device. UVA server’s IP address is 128.143.22.36, for example. Try copy/pasting that into your address bar as if it’s a website - you’ll see it just pulls up UVA’s site.</p>
+	<p>Now it would suck if your email address had to be dlw9af@128.143.22.36, or if anytime you wanted to go to UVA’s site you had to type in 128.143.22.36. That’s not exactly catchy or easy to remember. </p>
+	<p>Domains are things like facebook.com, virginia.edu, and danielwillson.com. They’re created to “mask” IP addresses with something more human-readable and human-rememberable. If you own a domain, you control what IP address it goes to. UVA owns virginia.edu, and they point it at 128.143.22.36. </p>
+	<p>Whenever you type in virginia.edu, it goes to a Domain Name Server (DNS) somewhere close to you. DNS is essentially the phonebook of the Internet - it’s a big directory that translates virginia.edu into 128.143.22.36. Once it gets the IP address, it actually knows where to find the website files you’ve asked for. So it goes to 128.143.22.36 where it finds all the website files for UVA. Then it opens those files and sends them back for you to view in your browser. </p>
+	<p>This is a bit of an oversimplification, but all of this really does happen within the split second of you hitting “enter” on your keyboard and the website appearing on your screen. </p>
+	<p>Anyone can buy domains. They cost usually $10-20/year. Pretty much all hosting companies also sell domains, so they’re most frequently bought together. That’s what we did with Bluehost. But you can also buy domains from companies that just sell domains and don’t do hosting. These are called domain registrars. </p>
+	<p>We’ve purchased a domain and hosting account for you all to use for the duration of this program.</p>
+	We purchased wireframewebsites.com and a hosting account from Bluehost for you all to use. 
+	<p>Before Sunday, we want you to upload something (it can be any of our previous assignments, or something new) to our hosting account via FTP. </p>
+	<p>The reason we can’t do this in class is because if 20 people try to connect via FTP at the same time Bluehost will think someone is trying to hack into our website and block some of you. (We found this out the hard way last semester.)</p>
+
+	<h2>Here’s how to do it:</h2>
+	<h3>1) Download FileZilla, an “FTP Client” - this is basically an app that lets you connect to hosts via FTP. </h3>
+	<p><a href="https://filezilla-project.org/" target="_blank">Here’s the download link.</a></p>
+
+	<h3>2) Open FileZilla, and type in the login info along the top bar.</h3>
+	<p>I put this info in Slack since the info is sensitive and I don't want it to be public on the Internet, like this page is.</p>
+
+	<h3>3) Upload files.</h3>
+	<img src="screenshot.png" />	
+	<p>On the left side of your screen are your computer’s files. You’ll want to navigate to the folder where all your Wireframe files are kept. </p>
+	<p>On the right side of your screen is all of the files on the server. Double click public_html to open that folder. Then right click anywhere and hit “Create directory” - this will make a new folder. Name it with your full name, no spaces, all lowercase. Like “danielwillson”.</p>
+	<p>Open that folder (still on the right side, on the server), and then drag in an index.html and styles.css file. (Pick whichever ones you want.) Make sure to upload any images you used as well. It’ll take a minute for them to show up on the right as they’re being uploaded. </p>
+
+	<h3>4) Visit them online!</h3>
+	<p>Go to wireframewebsites.com/danielwillson/ (replace my name with your name) and you should see your files! </p>
+	<p>Slack me if it doesn't work for you.</p>
+
+
+</div>
+
+
+</body>
+</html>

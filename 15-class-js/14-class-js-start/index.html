@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>JavaScript Tutorial</title>
+	<link rel='stylesheet' href='styles.css' type='text/css' />
+	<script type="text/javascript" src="main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<div>
+		<div class="button" onclick="moveMe()">Click me</div>
+		<div id="move">
+		Move me</div>
+	</div>
+
+	<!-- SHOW / HIDE -->
+	<div id="div-0">
+
+		<!-- Show/hide images, no animation -->
+		<div class="show-btn">
+			<p>Show image</p>
+		</div>
+		<div class="hide-btn">
+			<p>Hide image</p>
+		</div>
+
+		<!-- Show/hide images with animation -->
+		<div class="fade-in-btn">
+			<p>Fade image in</p>
+		</div>
+		<input type="text" id="mySpeed">
+		<div class="fade-out-btn">
+			<p>Fade image out</p>
+		</div>
+		<p id="speedInfo">
+
+		</p>
+
+		<!-- Puppy image that we're showing and hiding -->
+		<div class="image">
+			<img id="puppy" src="http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg" />
+		</div>
+	</div>
+
+	<!-- SCROLL TO -->
+	<div id="div-1">
+		<div class="button-1">
+			<p>Click here to scroll down!</p>
+		</div>
+	</div>
+	<div id="div-2">
+		<div class="button-2">
+			<p>Click here to scroll up!</p>
+		</div>
+	</div>
+
+</body>
+</html>
