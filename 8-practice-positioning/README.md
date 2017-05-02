@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 8 of Wireframe: Practicing the Position Property
 ## 

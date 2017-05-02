@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 12 of Wireframe: Intro to GitHub
 ## 

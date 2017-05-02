@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 13 of Wireframe: Floats + More CSS
 ## 
