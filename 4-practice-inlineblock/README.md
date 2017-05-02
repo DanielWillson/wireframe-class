@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 4 of Wireframe: Practicing the Display Property
 ## 

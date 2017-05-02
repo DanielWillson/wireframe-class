@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 16 of Wireframe: A Bit More Javascript
 ## 

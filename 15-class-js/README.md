@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 15 of Wireframe: Introduction to Javascript
 ## 

@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 10 of Wireframe: Web Design Inspiration and Research
 ## 

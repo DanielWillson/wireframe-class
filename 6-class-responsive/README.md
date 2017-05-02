@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 6 of Wireframe: Introduction to Media Queries
 ## 

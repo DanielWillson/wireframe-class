@@ -1,2 +1,2 @@
-# Class 1 of Wireframe
+# Class 5 of Wireframe: Wireframing Practice
 ## 
