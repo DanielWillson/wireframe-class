@@ -13,12 +13,14 @@ body {
 	text-align: center;
 }
 
+.another {
+
+}
+
 .logo img {
 	height: 80px;
 	width: auto;
 }
-
-
 
 .article {
 	display: inline-block;
@@ -26,8 +28,6 @@ body {
 	background-size: cover;
 	height: 600px;
 	margin-bottom: 20px;
-	
-
 	position: relative;
 }
 
