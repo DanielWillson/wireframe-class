@@ -26,7 +26,8 @@ function fadeImageOut() {
 
 function scrollToBottom() {
     var topOfDiv = $('#div-2').offset().top;
-    console.log("Top:", topOfDiv);
+    console.log(scrollTop);
+    // console.log("Top:", topOfDiv);
     $('body').animate({scrollTop: topOfDiv}, 1000);
     return false;
     /*
@@ -45,16 +46,16 @@ function scrollToTop() {
 
 
 
-// $(window).scroll(function () {
-//     // console.log($(window).scrollTop());
-//     var topDivHeight = $(".div-3").height();
-//     var viewPortSize = $(window).height();
+$(window).scroll(function () {
+    console.log($(window).scrollTop());
+    var topDivHeight = $(".div-3").height();
+    var viewPortSize = $(window).height();
     
-//     var triggerAt = 2000;
-//     var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
+    var triggerAt = 2000;
+    var triggerHeight = (topDivHeight - viewPortSize) + triggerAt;
 
-//     if ($(window).scrollTop() >= triggerHeight) {
-//         $('.div-4').css('visibility', 'visible').hide().fadeIn();
-//         $(this).off('scroll');
-//     }
-// });
+    if ($(window).scrollTop() >= triggerHeight) {
+        $('.div-4').css('visibility', 'visible').hide().fadeIn();
+        $(this).off('scroll');
+    }
+});
